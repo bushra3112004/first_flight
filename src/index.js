@@ -10,13 +10,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function MovieCard({ name, view, url }) {
 
-    return (<div className="card"><div className="movie-card">
+    return (<div className="movie-card">
         
         <img src={url} alt={`${name} from ${view}`} className="img"/>
         <h3 className="heading">Film: {name}</h3>
         <p className="subheading">View: {view}</p>
     </div>
-</div>
+
 
     )
 
