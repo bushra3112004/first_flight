@@ -8,7 +8,7 @@ import Movie5Img from '../src/movie5.jpg';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function MovieCard({ name, view, url }) {
+export default function MovieCard({ name, view, url }) {
 
     return (<div className="movie-card">
         
